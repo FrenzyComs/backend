@@ -11,7 +11,7 @@ use super::super::Permission::GrantAllSafe;
 impl PermissionCalculator<'_> {
     /// Calculate the permissions from our perspective to the given server or channel
     ///
-    /// Refer to https://developers.revolt.chat/stack/delta/permissions#flow-chart for more information
+    /// Refer to https://developers.transfem.pp.ua/stack/delta/permissions#flow-chart for more information
     pub async fn calc(&mut self, db: &crate::Database) -> Result<Perms> {
         if self.perspective.privileged {
             return Ok(Permissions([GrantAllSafe as u64]));

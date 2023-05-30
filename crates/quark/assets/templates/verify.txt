@@ -1,8 +1,9 @@
-Almost there!
-To complete your sign up, we just need to verify your email.
+Hiya, welcome to Frenzy!
 
-Please navigate to: {{url}}
+To complete your sign up, we've gotta verify your email.
+
+Please go to {{url}}.
 
 This email is intended for {{email}}
-Sent by Revolt
-Made in the EU
+Sent by Frenzy
+Made in the UK

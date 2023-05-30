@@ -49,7 +49,7 @@ fn custom_openapi_spec() -> OpenApi {
     extensions.insert(
         "x-logo".to_owned(),
         json!({
-            "url": "https://revolt.chat/header.png",
+            "url": "https://transfem.pp.ua/header.png",
             "altText": "Revolt Header"
         }),
     );
@@ -138,18 +138,18 @@ fn custom_openapi_spec() -> OpenApi {
     OpenApi {
         openapi: OpenApi::default_version(),
         info: Info {
-            title: "Revolt API".to_owned(),
+            title: "Frenzy API".to_owned(),
             description: Some("Open source user-first chat platform.".to_owned()),
-            terms_of_service: Some("https://revolt.chat/terms".to_owned()),
+            terms_of_service: Some("https://transfem.pp.ua/terms".to_owned()),
             contact: Some(Contact {
-                name: Some("Revolt Support".to_owned()),
-                url: Some("https://revolt.chat".to_owned()),
-                email: Some("contact@revolt.chat".to_owned()),
+                name: Some("Frenzy Support".to_owned()),
+                url: Some("https://transfem.pp.ua".to_owned()),
+                email: Some("ripley@transfem.pp.ua".to_owned()),
                 ..Default::default()
             }),
             license: Some(License {
                 name: "AGPLv3".to_owned(),
-                url: Some("https://github.com/revoltchat/delta/blob/master/LICENSE".to_owned()),
+                url: Some("https://github.com/FrenzyComs/delta/blob/master/LICENSE".to_owned()),
                 ..Default::default()
             }),
             version: env!("CARGO_PKG_VERSION").to_string(),
@@ -157,18 +157,18 @@ fn custom_openapi_spec() -> OpenApi {
         },
         servers: vec![
             Server {
-                url: "https://api.revolt.chat".to_owned(),
-                description: Some("Revolt API".to_owned()),
+                url: "https://api.transfem.pp.ua".to_owned(),
+                description: Some("Frenzy API".to_owned()),
                 ..Default::default()
             },
             Server {
-                url: "http://local.revolt.chat:8000".to_owned(),
+                url: "http://local.transfem.pp.ua:8000".to_owned(),
                 description: Some("Local Revolt Environment".to_owned()),
                 ..Default::default()
             },
         ],
         external_docs: Some(ExternalDocs {
-            url: "https://developers.revolt.chat".to_owned(),
+            url: "https://developers.transfem.pp.ua".to_owned(),
             description: Some("Revolt Developer Documentation".to_owned()),
             ..Default::default()
         }),

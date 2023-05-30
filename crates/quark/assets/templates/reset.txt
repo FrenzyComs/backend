@@ -1,7 +1,7 @@
-You requested a password reset, if you did not perform this action you can safely ignore this email.
+Hiya! We've recieved an Account Password Reset request.
 
-Please navigate to: {{url}}
+To continue, please go to {{url}}.
 
 This email is intended for {{email}}
-Sent by Revolt
-Made in the EU
+Sent by Frenzy
+Made in the UK

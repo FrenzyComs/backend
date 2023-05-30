@@ -18,12 +18,12 @@ Note: `january`, `autumn`, and `vortex` are yet to be moved into this monorepo.
 ### Revolt
 
 - [Revolt Project Board](https://github.com/revoltchat/revolt/discussions) (Submit feature requests here)
-- [Revolt Testers Server](https://app.revolt.chat/invite/Testers)
-- [Contribution Guide](https://developers.revolt.chat/contributing)
+- [Revolt Testers Server](https://app.transfem.pp.ua/invite/Testers)
+- [Contribution Guide](https://developers.transfem.pp.ua/contributing)
 
 ## Contributing
 
-The contribution guide is located at [developers.revolt.chat/contributing](https://developers.revolt.chat/contributing).
+The contribution guide is located at [developers.transfem.pp.ua/contributing](https://developers.transfem.pp.ua/contributing).
 Please note that a pull request should only take care of one issue so that we can review it quickly.
 
 ## License

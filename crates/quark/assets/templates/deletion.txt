@@ -1,7 +1,9 @@
-You requested to have your account deleted, if you did not perform this action please take measures to secure your account immediately.
+Hiya! We've recieved an Account Deletion Request for your Frenzy account.
+
+If this wasn't you, please IMMEDIATELY secure your account.
 
 Please navigate to: {{url}}
 
 This email is intended for {{email}}
-Sent by Revolt
-Made in the EU
+Sent by Frenzy
+Made in the UK
