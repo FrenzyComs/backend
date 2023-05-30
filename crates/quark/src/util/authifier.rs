@@ -19,8 +19,8 @@ pub fn config() -> Config {
                     username: (*SMTP_USERNAME).to_string(),
                     password: (*SMTP_PASSWORD).to_string(),
                     reply_to: Some("notifications@realshellfish.tech".into()),
-                    port: 587,
-                    use_tls: true,
+                    port: Some(587),
+                    use_tls: Some(true),
                 },
                 expiry: Default::default(),
                 templates: Templates {
